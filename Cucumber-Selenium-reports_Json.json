@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-20T09:42:01.489Z",
+        "line": 3,
+        "name": "OpenWebsite",
+        "description": "",
+        "id": "open-browser;openwebsite",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7530477400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the browser",
+            "match": {
+              "location": "Steps.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2573449300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the url",
+            "match": {
+              "location": "Steps.enter_the_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2391773900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Home page is displayed",
+            "match": {
+              "location": "Steps.home_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Open browser",
+    "description": "",
+    "id": "open-browser",
+    "keyword": "Feature",
+    "uri": "classpath:Selenium/OpenWebsite.feature",
+    "tags": []
+  }
+]
